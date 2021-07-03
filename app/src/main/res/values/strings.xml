@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="cari">Cari</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_catalogue">Katalog</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_profile">Profil</string>
+    <string name="this_a_banner">This A Banner</string>
+    <string name="sepatu">Sepatu</string>
+    <string name="sendal">Sendal</string>
+    <string name="tas">Tas</string>
+    <string name="kobe_v_protro">Kobe V Protro</string>
+    <string name="big_stage_parade">Big Stage Parade</string>
+    <string name="run_baby_run">Run Baby Run</string>
+    <string name="rp_2_000_000">Rp. 2.000.000</string>
+    <string name="rp_5_000_000">Rp. 5.000.000</string>
+    <string name="rp_5_500_000">Rp. 5.500.000</string>
+    <string name="flash_sale">Flash Sale</string>
+    <string name="closing_in">Closing in : </string>
+    <string name="_02_31_22">02:31:22</string>
+    <string name="recently_viewed">Recently Viewed</string>
+    <string name="walker_progo">Walker Progo</string>
+    <string name="rp_1_231_000">Rp. 1.231.000</string>
+    <string name="gucci_les_871">Gucci Les 871</string>
+    <string name="rp_112_000_000">Rp. 112.000.000</string>
+    <string name="noxelic_luxent_premium">Noxelic Luxent Premium</string>
+    <string name="rp_320_000">Rp. 320.000</string>
+</resources>
