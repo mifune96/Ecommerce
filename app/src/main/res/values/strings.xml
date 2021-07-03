@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ecommerce</string>
-    <string name="cari">Cari</string>
+    <string name="cari">Cari di Tokopedia</string>
     <string name="nav_home">Beranda</string>
     <string name="nav_catalogue">Katalog</string>
     <string name="nav_cart">Keranjang</string>
@@ -25,4 +25,15 @@
     <string name="rp_112_000_000">Rp. 112.000.000</string>
     <string name="noxelic_luxent_premium">Noxelic Luxent Premium</string>
     <string name="rp_320_000">Rp. 320.000</string>
+    <string name="dikirim_ke">Dikirim ke</string>
+    <string name="kontrakan_warna_pink_tengah_ali">Kontrakan warna Pink (Tengah) Ali</string>
+    <string name="top_up_cuy">Top-up Cuy</string>
+    <string name="bebas_ongkir">Bebas Ongkir</string>
+    <string name="_4x_lagi">4x Lagi</string>
+    <string name="target">Target</string>
+    <string name="_18_target">18 Target</string>
+    <string name="_8761_saham">8761 Saham</string>
+    <string name="fassion_wanita">Fassion</string>
+    <string name="otomotif">Otomotif</string>
+    <string name="kesehatan">Kesehatan</string>
 </resources>

@@ -16,14 +16,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_marginTop="10dp">
 
             <LinearLayout
                 android:id="@+id/search"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginRight="16dp"
-                android:layout_toLeftOf="@+id/notif"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/notif"
                 android:background="@drawable/toolbar_background"
                 android:orientation="horizontal"
                 tools:ignore="UselessParent">
@@ -36,29 +36,42 @@
                     android:src="@drawable/ic_search" />
 
                 <TextView
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/cari"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     tools:ignore="Autofill" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/notif"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentEnd="true"
-                android:background="@drawable/toolbar_background">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="10dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_heart_color"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_email"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
                     android:src="@drawable/ic_bell"
                     tools:ignore="ContentDescription" />
             </LinearLayout>
@@ -67,5 +80,6 @@
 
 
     </androidx.appcompat.widget.Toolbar>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
