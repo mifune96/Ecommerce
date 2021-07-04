@@ -36,4 +36,16 @@
     <string name="fassion_wanita">Fassion</string>
     <string name="otomotif">Otomotif</string>
     <string name="kesehatan">Kesehatan</string>
+    <string name="pengiriman">Pengiriman</string>
+    <string name="alamat_pengiriman">Alamat Pengiriman</string>
+    <string name="pilih_alamat_lain">Pilih Alamat Lain</string>
+    <string name="kontrakan_warna_pink_tengah">Kontrakan Warna Pink (Tengah)</string>
+    <string name="utama">Utama</string>
+    <string name="ali_imran_08219811211">Ali Imran (08219811211)</string>
+    <string name="jl_nin_aja_dulu_sapatau_nyaman_yakan_kec_patampanua_kab_pinrang_sulawesi_selatan">Jl. Nin Aja dulu sapatau nyaman yakan, Kec. Patampanua, Kab. Pinrang, Sulawesi Selatan</string>
+    <string name="toko_jaya_esport">Toko Jaya Esport</string>
+    <string name="jakarta_pusat">Jakarta Pusat  |  </string>
+    <string name="_1_barang_1_kg">1 barang (1 kg)</string>
+    <string name="pilih_pengiriman">Pilih Pengiriman</string>
+    <string name="subtotal">Subtotal</string>
 </resources>

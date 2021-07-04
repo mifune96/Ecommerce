@@ -13,6 +13,7 @@
     <color name="ijo">#006328</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="pink">#B0E91E63</color>
 
     <color name="search_button_color">#DDDDDD</color>
 </resources>
