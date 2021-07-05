@@ -35,11 +35,14 @@
                     android:layout_marginStart="16dp"
                     android:src="@drawable/ic_search" />
 
-                <TextView
+                <EditText
+                    android:background="@color/white"
                     android:layout_marginStart="5dp"
+                    android:textSize="14sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/cari"
+                    android:hint="@string/cari"
+                    android:textColor="@color/black"
                     android:layout_gravity="center_vertical"
                     tools:ignore="Autofill" />
 

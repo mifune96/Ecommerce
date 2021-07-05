@@ -48,4 +48,34 @@
     <string name="_1_barang_1_kg">1 barang (1 kg)</string>
     <string name="pilih_pengiriman">Pilih Pengiriman</string>
     <string name="subtotal">Subtotal</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="slider">
+        <item>https://images.tokopedia.net/img/cache/500/coCfvv/2021/7/3/6e95379c-8c99-40f3-bd0c-d10521fb05ab.jpg.webp?ect=4gaaa</item>
+        <item>https://images.tokopedia.net/img/cache/500/coCfvv/2021/7/3/15446573-6c21-4bc3-a6f3-4e8db55a6cc4.jpg.webp?ect=4g</item>
+    </string-array>
+
+    <string-array name="company">
+        <item>Official \n Sore</item>
+        <item>Lihat \n Semua</item>
+        <item>Ibu dan Bayi</item>
+        <item>Top-up dan \n Tagihan</item>
+        <item>Keuangan</item>
+        <item>Travel dan \n Entertaiment</item>
+        <item>Kesehatan</item>
+        <item>Rumah Tangga</item>
+    </string-array>
+
+    <string-array name="avatar">
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/7/4/2de4419b-d86f-4b10-a8f0-b0899c46eb40.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/25916fd0-94f8-467a-a0e4-be6049ba820d.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/3c904c97-8e0a-415e-9da5-dfed91c301ee.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/ec5c92cb-6b3d-4643-b273-dcc431b388fc.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/8979eb85-1229-459e-897c-169c7055462e.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/c46eed8a-9e2c-4877-9ee0-78f9e77a59e4.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/40a65733-60b7-46f4-af28-1253e96803a3.png?ect=4g</item>
+        <item>https://images.tokopedia.net/img/cache/64-square/iEWsxH/2021/4/19/5d3183b0-ca7e-4004-be96-51d78c9b8d75.png?ect=4g</item>
+    </string-array>
+
 </resources>

@@ -1,13 +1,13 @@
-package tomuch.coffee.ecommerce
+package tomuch.coffee.ecommerce.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import tomuch.coffee.ecommerce.R
 
-class MainActivityCard : AppCompatActivity() {
+class CardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_cart)
-
+        setContentView(R.layout.activity_card)
         supportActionBar?.hide()
     }
 }

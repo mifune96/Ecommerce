@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
+    <include
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:layout_marginTop="8dp"
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,37 +67,38 @@
             android:id="@+id/glidepoin"
             layout="@layout/glide_poin"
             android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:shapeAppearanceOverlay="@style/roundimageview"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
-        <include
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/glidebuttonup"
-            layout="@layout/grid_item_buttonup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:layout_constraintTop_toBottomOf="@+id/glidepoin"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
             />
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/banner"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vpSlider"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
             android:scaleType="fitXY"
-            android:src="@drawable/banner"
+            android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/glidebuttonup"
-            app:shapeAppearanceOverlay="@style/roundimageview" />
+            app:layout_constraintTop_toBottomOf="@+id/glidebuttonup" />
+
 
         <include
         android:id="@+id/buttomproduk"
@@ -97,9 +107,12 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banner"/>
+        app:layout_constraintTop_toBottomOf="@+id/vpSlider"/>
 
         <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:id="@+id/layoutterlaris"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,20 +122,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="10dp"
                 android:text="Terlaris Hari Ini"
                 android:textColor="@color/black"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:textColor="@color/ijo"
+                android:textColor="@color/purple_700"
                 android:text="Lihat Semua"
-                android:layout_marginEnd="4dp"
-                android:textSize="14sp"
+                android:layout_marginEnd="10dp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 />
         </RelativeLayout>
@@ -141,4 +154,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.core.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
